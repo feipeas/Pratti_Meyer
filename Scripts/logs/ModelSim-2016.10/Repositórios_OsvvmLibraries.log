@@ -1,0 +1,1557 @@
+# build ../../OsvvmLibraries
+# Starting Build at time 10:23:54
+# include ../../OsvvmLibraries
+# set CurrentWorkingDirectory ../../OsvvmLibraries
+# source ../../OsvvmLibraries/OsvvmLibraries.pro
+# include ./osvvm/osvvm.pro
+# set CurrentWorkingDirectory ../../OsvvmLibraries/osvvm
+# source ../../OsvvmLibraries/osvvm/osvvm.pro
+# library osvvm C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10
+# vmap   osvvm  C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm
+# analyze OsvvmScriptSettingsPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:55 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/OsvvmScriptSettingsPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcome8ved3".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/OsvvmScriptSettingsPkg.vhd(39): VHDL Compiler exiting
+# End time: 10:23:55 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze OsvvmScriptSettingsPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze TextUtilPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:55 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/TextUtilPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcom8sbb17".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/TextUtilPkg.vhd(51): VHDL Compiler exiting
+# End time: 10:23:55 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze TextUtilPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ResolutionPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:55 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/ResolutionPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcomng0r0f".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/ResolutionPkg.vhd(52): VHDL Compiler exiting
+# End time: 10:23:55 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ResolutionPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze NamePkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:55 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/NamePkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcomaj7khd".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/NamePkg.vhd(48): VHDL Compiler exiting
+# End time: 10:23:55 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze NamePkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze OsvvmGlobalPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:55 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/OsvvmGlobalPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcom62zz5q".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/OsvvmGlobalPkg.vhd(47): VHDL Compiler exiting
+# End time: 10:23:55 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze OsvvmGlobalPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze VendorCovApiPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:55 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/VendorCovApiPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcomw1sqkr".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/VendorCovApiPkg.vhd(42): VHDL Compiler exiting
+# End time: 10:23:55 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze VendorCovApiPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze TranscriptPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:55 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/TranscriptPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcomatrz1m".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/TranscriptPkg.vhd(49): VHDL Compiler exiting
+# End time: 10:23:55 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze TranscriptPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze AlertLogPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:55 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/AlertLogPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcomdxdezb".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/AlertLogPkg.vhd(104): VHDL Compiler exiting
+# End time: 10:23:55 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze AlertLogPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze NameStorePkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:55 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/NameStorePkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcomysbn63".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/NameStorePkg.vhd(45): VHDL Compiler exiting
+# End time: 10:23:55 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze NameStorePkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze MessageListPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:55 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/MessageListPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcomfcjrww".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/MessageListPkg.vhd(43): VHDL Compiler exiting
+# End time: 10:23:55 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze MessageListPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze SortListPkg_int.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:55 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/SortListPkg_int.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcom5xczyw".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/SortListPkg_int.vhd(56): VHDL Compiler exiting
+# End time: 10:23:55 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze SortListPkg_int.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze RandomBasePkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:56 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/RandomBasePkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcomemszyy".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/RandomBasePkg.vhd(66): VHDL Compiler exiting
+# End time: 10:23:56 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze RandomBasePkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze RandomPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:56 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/RandomPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcom9v0gsv".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/RandomPkg.vhd(73): VHDL Compiler exiting
+# End time: 10:23:56 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze RandomPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze RandomProcedurePkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:56 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/RandomProcedurePkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcomvmddvh".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/RandomProcedurePkg.vhd(54): VHDL Compiler exiting
+# End time: 10:23:56 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze RandomProcedurePkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze CoveragePkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:56 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/CoveragePkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcomxkswar".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/CoveragePkg.vhd(110): VHDL Compiler exiting
+# End time: 10:23:56 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze CoveragePkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ResizePkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:56 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/ResizePkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcom25n6wz".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/ResizePkg.vhd(42): VHDL Compiler exiting
+# End time: 10:23:56 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ResizePkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ScoreboardGenericPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:56 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/ScoreboardGenericPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcom3gfv47".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/ScoreboardGenericPkg.vhd(77): VHDL Compiler exiting
+# End time: 10:23:56 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ScoreboardGenericPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ScoreboardPkg_slv.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:56 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/ScoreboardPkg_slv.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcomd4hk9e".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/ScoreboardPkg_slv.vhd(48): VHDL Compiler exiting
+# End time: 10:23:56 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ScoreboardPkg_slv.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ScoreboardPkg_int.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:56 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/ScoreboardPkg_int.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcom8esv06".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/ScoreboardPkg_int.vhd(45): VHDL Compiler exiting
+# End time: 10:23:56 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ScoreboardPkg_int.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze MemorySupportPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:56 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/MemorySupportPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcomn3g8ks".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/MemorySupportPkg.vhd(43): VHDL Compiler exiting
+# End time: 10:23:56 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze MemorySupportPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze MemoryGenericPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:56 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/MemoryGenericPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcomyfa0rn".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/MemoryGenericPkg.vhd(52): VHDL Compiler exiting
+# End time: 10:23:56 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze MemoryGenericPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze MemoryPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:56 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/MemoryPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcom6s75xx".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/MemoryPkg.vhd(49): VHDL Compiler exiting
+# End time: 10:23:56 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze MemoryPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze TbUtilPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:56 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/TbUtilPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcomh23jqt".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/TbUtilPkg.vhd(54): VHDL Compiler exiting
+# End time: 10:23:57 on Apr 26,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze TbUtilPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ReportPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:57 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/ReportPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcomyk4whg".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/ReportPkg.vhd(47): VHDL Compiler exiting
+# End time: 10:23:57 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ReportPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze OsvvmTypesPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:57 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/OsvvmTypesPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcom2f4gmh".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/OsvvmTypesPkg.vhd(41): VHDL Compiler exiting
+# End time: 10:23:57 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze OsvvmTypesPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze OsvvmContext.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:57 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/OsvvmContext.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcomb9dziz".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/OsvvmContext.vhd(46): VHDL Compiler exiting
+# End time: 10:23:57 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze OsvvmContext.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze OsvvmScriptSettingsPkg_generated.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:57 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm ../../OsvvmLibraries/osvvm/OsvvmScriptSettingsPkg_generated.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm/_temp/vcomvvscvy".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/osvvm/OsvvmScriptSettingsPkg_generated.vhd(2): VHDL Compiler exiting
+# End time: 10:23:57 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze OsvvmScriptSettingsPkg_generated.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# include ./Common/Common.pro
+# set CurrentWorkingDirectory ../../OsvvmLibraries/Common
+# source ../../OsvvmLibraries/Common/Common.pro
+# library OSVVM_Common C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10
+# vmap   osvvm_common  C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common
+# include src/Common.pro
+# set CurrentWorkingDirectory ../../OsvvmLibraries/Common/src
+# source ../../OsvvmLibraries/Common/src/Common.pro
+# library OSVVM_Common C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10
+# vmap   osvvm_common  C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common
+# analyze ModelParametersPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:57 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work OSVVM_Common ../../OsvvmLibraries/Common/src/ModelParametersPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_temp/vcomhye2xm".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Common/src/ModelParametersPkg.vhd(43): VHDL Compiler exiting
+# End time: 10:23:57 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ModelParametersPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze FifoFillPkg_slv.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:57 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work OSVVM_Common ../../OsvvmLibraries/Common/src/FifoFillPkg_slv.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_temp/vcomkase7h".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Common/src/FifoFillPkg_slv.vhd(49): VHDL Compiler exiting
+# End time: 10:23:57 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze FifoFillPkg_slv.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze StreamTransactionPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:57 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work OSVVM_Common ../../OsvvmLibraries/Common/src/StreamTransactionPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_temp/vcomrgcdhx".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Common/src/StreamTransactionPkg.vhd(55): VHDL Compiler exiting
+# End time: 10:23:57 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze StreamTransactionPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze StreamTransactionArrayPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:57 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work OSVVM_Common ../../OsvvmLibraries/Common/src/StreamTransactionArrayPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_temp/vcom8364g8".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Common/src/StreamTransactionArrayPkg.vhd(49): VHDL Compiler exiting
+# End time: 10:23:57 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze StreamTransactionArrayPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze AddressBusTransactionPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:57 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work OSVVM_Common ../../OsvvmLibraries/Common/src/AddressBusTransactionPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_temp/vcomk9fr2w".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Common/src/AddressBusTransactionPkg.vhd(55): VHDL Compiler exiting
+# End time: 10:23:57 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze AddressBusTransactionPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze AddressBusTransactionArrayPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:57 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work OSVVM_Common ../../OsvvmLibraries/Common/src/AddressBusTransactionArrayPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_temp/vcom1680ra".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Common/src/AddressBusTransactionArrayPkg.vhd(47): VHDL Compiler exiting
+# End time: 10:23:57 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze AddressBusTransactionArrayPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze AddressBusResponderTransactionPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:58 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work OSVVM_Common ../../OsvvmLibraries/Common/src/AddressBusResponderTransactionPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_temp/vcomx67hcd".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Common/src/AddressBusResponderTransactionPkg.vhd(46): VHDL Compiler exiting
+# End time: 10:23:58 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze AddressBusResponderTransactionPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze AddressBusResponderTransactionArrayPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:58 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work OSVVM_Common ../../OsvvmLibraries/Common/src/AddressBusResponderTransactionArrayPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_temp/vcomnrwqg4".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Common/src/AddressBusResponderTransactionArrayPkg.vhd(42): VHDL Compiler exiting
+# End time: 10:23:58 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze AddressBusResponderTransactionArrayPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze AddressBusVersionCompatibilityPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:58 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work OSVVM_Common ../../OsvvmLibraries/Common/src/AddressBusVersionCompatibilityPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_temp/vcom5xkb36".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Common/src/AddressBusVersionCompatibilityPkg.vhd(46): VHDL Compiler exiting
+# End time: 10:23:58 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze AddressBusVersionCompatibilityPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze InterruptGlobalSignalPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:58 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work OSVVM_Common ../../OsvvmLibraries/Common/src/InterruptGlobalSignalPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_temp/vcombazetc".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Common/src/InterruptGlobalSignalPkg.vhd(42): VHDL Compiler exiting
+# End time: 10:23:58 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze InterruptGlobalSignalPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze InterruptHandler.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:58 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work OSVVM_Common ../../OsvvmLibraries/Common/src/InterruptHandler.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_temp/vcomfk54yd".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Common/src/InterruptHandler.vhd(42): VHDL Compiler exiting
+# End time: 10:23:58 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze InterruptHandler.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze InterruptHandlerComponentPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:58 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work OSVVM_Common ../../OsvvmLibraries/Common/src/InterruptHandlerComponentPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_temp/vcomgge8h5".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Common/src/InterruptHandlerComponentPkg.vhd(41): VHDL Compiler exiting
+# End time: 10:23:58 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze InterruptHandlerComponentPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze InterruptGeneratorBit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:58 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work OSVVM_Common ../../OsvvmLibraries/Common/src/InterruptGeneratorBit.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_temp/vcombd43bj".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Common/src/InterruptGeneratorBit.vhd(41): VHDL Compiler exiting
+# End time: 10:23:58 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze InterruptGeneratorBit.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze InterruptGeneratorBitVti.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:58 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work OSVVM_Common ../../OsvvmLibraries/Common/src/InterruptGeneratorBitVti.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_temp/vcom89is1b".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Common/src/InterruptGeneratorBitVti.vhd(41): VHDL Compiler exiting
+# End time: 10:23:58 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze InterruptGeneratorBitVti.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze InterruptGeneratorComponentPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:58 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work OSVVM_Common ../../OsvvmLibraries/Common/src/InterruptGeneratorComponentPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_temp/vcomys9qb9".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Common/src/InterruptGeneratorComponentPkg.vhd(41): VHDL Compiler exiting
+# End time: 10:23:58 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze InterruptGeneratorComponentPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze OsvvmCommonContext.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:58 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work OSVVM_Common ../../OsvvmLibraries/Common/src/OsvvmCommonContext.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_common/_temp/vcom4mdg1h".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Common/src/OsvvmCommonContext.vhd(42): VHDL Compiler exiting
+# End time: 10:23:58 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze OsvvmCommonContext.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# include ./UART/UART.pro
+# set CurrentWorkingDirectory ../../OsvvmLibraries/UART
+# source ../../OsvvmLibraries/UART/UART.pro
+# library osvvm_uart C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10
+# vmap   osvvm_uart  C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_uart
+# analyze ./src/UartTbPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:58 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_uart ../../OsvvmLibraries/UART/src/UartTbPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_uart/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_uart/_temp/vcoms35q83".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/UART/src/UartTbPkg.vhd(46): VHDL Compiler exiting
+# End time: 10:23:59 on Apr 26,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/UartTbPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/ScoreboardPkg_Uart.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:59 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_uart ../../OsvvmLibraries/UART/src/ScoreboardPkg_Uart.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_uart/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_uart/_temp/vcomy9cn3y".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/UART/src/ScoreboardPkg_Uart.vhd(45): VHDL Compiler exiting
+# End time: 10:23:59 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/ScoreboardPkg_Uart.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/UartTxComponentPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:59 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_uart ../../OsvvmLibraries/UART/src/UartTxComponentPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_uart/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_uart/_temp/vcom615fv2".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/UART/src/UartTxComponentPkg.vhd(43): VHDL Compiler exiting
+# End time: 10:23:59 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/UartTxComponentPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/UartRxComponentPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:59 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_uart ../../OsvvmLibraries/UART/src/UartRxComponentPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_uart/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_uart/_temp/vcom2akm4g".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/UART/src/UartRxComponentPkg.vhd(43): VHDL Compiler exiting
+# End time: 10:23:59 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/UartRxComponentPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/UartContext.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:59 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_uart ../../OsvvmLibraries/UART/src/UartContext.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_uart/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_uart/_temp/vcom6xbgsq".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/UART/src/UartContext.vhd(41): VHDL Compiler exiting
+# End time: 10:23:59 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/UartContext.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/UartTx.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:59 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_uart ../../OsvvmLibraries/UART/src/UartTx.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_uart/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_uart/_temp/vcomammkg5".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/UART/src/UartTx.vhd(52): VHDL Compiler exiting
+# End time: 10:23:59 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/UartTx.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/UartRx.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:59 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_uart ../../OsvvmLibraries/UART/src/UartRx.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_uart/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_uart/_temp/vcomzfzv44".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/UART/src/UartRx.vhd(53): VHDL Compiler exiting
+# End time: 10:23:59 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/UartRx.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# include ./AXI4/AXI4.pro
+# set CurrentWorkingDirectory ../../OsvvmLibraries/AXI4
+# source ../../OsvvmLibraries/AXI4/AXI4.pro
+# include ./common/common.pro
+# set CurrentWorkingDirectory ../../OsvvmLibraries/AXI4/common
+# source ../../OsvvmLibraries/AXI4/common/common.pro
+# library osvvm_axi4 C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10
+# vmap   osvvm_axi4  C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4
+# analyze Axi4InterfaceCommonPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:59 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/common/src/Axi4InterfaceCommonPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcomwiqxwi".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/common/src/Axi4InterfaceCommonPkg.vhd(46): VHDL Compiler exiting
+# End time: 10:23:59 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze Axi4InterfaceCommonPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze Axi4LiteInterfacePkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:59 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/common/src/Axi4LiteInterfacePkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcomk0681n".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/common/src/Axi4LiteInterfacePkg.vhd(46): VHDL Compiler exiting
+# End time: 10:23:59 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze Axi4LiteInterfacePkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze Axi4InterfacePkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:59 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/common/src/Axi4InterfacePkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcom5cxgrt".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/common/src/Axi4InterfacePkg.vhd(46): VHDL Compiler exiting
+# End time: 10:23:59 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze Axi4InterfacePkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze Axi4CommonPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:59 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/common/src/Axi4CommonPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcomrqfi4b".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/common/src/Axi4CommonPkg.vhd(42): VHDL Compiler exiting
+# End time: 10:23:59 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze Axi4CommonPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze Axi4ModelPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:00 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/common/src/Axi4ModelPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcom84z51n".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/common/src/Axi4ModelPkg.vhd(43): VHDL Compiler exiting
+# End time: 10:24:00 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze Axi4ModelPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze Axi4OptionsPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:00 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/common/src/Axi4OptionsPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcomt802bm".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/common/src/Axi4OptionsPkg.vhd(43): VHDL Compiler exiting
+# End time: 10:24:00 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze Axi4OptionsPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze Axi4OptionsArrayPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:00 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/common/src/Axi4OptionsArrayPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcom5x9b54".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/common/src/Axi4OptionsArrayPkg.vhd(42): VHDL Compiler exiting
+# End time: 10:24:00 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze Axi4OptionsArrayPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze Axi4VersionCompatibilityPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:00 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/common/src/Axi4VersionCompatibilityPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcomc50tbr".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/common/src/Axi4VersionCompatibilityPkg.vhd(43): VHDL Compiler exiting
+# End time: 10:24:00 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze Axi4VersionCompatibilityPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# include ./Axi4Lite/Axi4Lite.pro
+# set CurrentWorkingDirectory ../../OsvvmLibraries/AXI4/Axi4Lite
+# source ../../OsvvmLibraries/AXI4/Axi4Lite/Axi4Lite.pro
+# library osvvm_axi4 C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10
+# vmap   osvvm_axi4  C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4
+# analyze ./src/Axi4LiteComponentPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:00 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/Axi4Lite/src/Axi4LiteComponentPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcomjcfex6".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/Axi4Lite/src/Axi4LiteComponentPkg.vhd(43): VHDL Compiler exiting
+# End time: 10:24:00 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/Axi4LiteComponentPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/Axi4LiteContext.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:00 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/Axi4Lite/src/Axi4LiteContext.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcomhiqksm".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/Axi4Lite/src/Axi4LiteContext.vhd(41): VHDL Compiler exiting
+# End time: 10:24:00 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/Axi4LiteContext.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/Axi4LiteManager.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:00 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/Axi4Lite/src/Axi4LiteManager.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcom73tb8g".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/Axi4Lite/src/Axi4LiteManager.vhd(44): VHDL Compiler exiting
+# End time: 10:24:00 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/Axi4LiteManager.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/Axi4LiteMonitor_dummy.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:00 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/Axi4Lite/src/Axi4LiteMonitor_dummy.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcomq83qbc".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/Axi4Lite/src/Axi4LiteMonitor_dummy.vhd(42): VHDL Compiler exiting
+# End time: 10:24:00 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/Axi4LiteMonitor_dummy.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/Axi4LiteSubordinate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:00 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/Axi4Lite/src/Axi4LiteSubordinate.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcom7d15fa".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/Axi4Lite/src/Axi4LiteSubordinate.vhd(44): VHDL Compiler exiting
+# End time: 10:24:00 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/Axi4LiteSubordinate.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/Axi4LiteMemory.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:00 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/Axi4Lite/src/Axi4LiteMemory.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcomssr77w".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/Axi4Lite/src/Axi4LiteMemory.vhd(44): VHDL Compiler exiting
+# End time: 10:24:00 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/Axi4LiteMemory.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/Axi4LitePassThru.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:01 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/Axi4Lite/src/Axi4LitePassThru.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcomibzj2h".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/Axi4Lite/src/Axi4LitePassThru.vhd(43): VHDL Compiler exiting
+# End time: 10:24:01 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/Axi4LitePassThru.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# include ./AxiStream/AxiStream.pro
+# set CurrentWorkingDirectory ../../OsvvmLibraries/AXI4/AxiStream
+# source ../../OsvvmLibraries/AXI4/AxiStream/AxiStream.pro
+# library osvvm_axi4 C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10
+# vmap   osvvm_axi4  C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4
+# analyze ./src/AxiStreamOptionsPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:01 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamOptionsPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcomyv30gh".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamOptionsPkg.vhd(46): VHDL Compiler exiting
+# End time: 10:24:01 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/AxiStreamOptionsPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/AxiStreamOptionsArrayPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:01 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamOptionsArrayPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcom946zxh".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamOptionsArrayPkg.vhd(42): VHDL Compiler exiting
+# End time: 10:24:01 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/AxiStreamOptionsArrayPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/AxiStreamTbPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:01 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamTbPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcommqmdf9".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamTbPkg.vhd(44): VHDL Compiler exiting
+# End time: 10:24:01 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/AxiStreamTbPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/AxiStreamTransmitter.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:01 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamTransmitter.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcom36i0fh".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamTransmitter.vhd(55): VHDL Compiler exiting
+# End time: 10:24:01 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/AxiStreamTransmitter.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/AxiStreamTransmitterVti.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:01 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamTransmitterVti.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcom0k15b9".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamTransmitterVti.vhd(50): VHDL Compiler exiting
+# End time: 10:24:01 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/AxiStreamTransmitterVti.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/AxiStreamReceiver.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:01 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamReceiver.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcomhj6yt4".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamReceiver.vhd(56): VHDL Compiler exiting
+# End time: 10:24:01 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/AxiStreamReceiver.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/AxiStreamReceiverVti.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:01 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamReceiverVti.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcom773af7".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamReceiverVti.vhd(51): VHDL Compiler exiting
+# End time: 10:24:01 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/AxiStreamReceiverVti.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/AxiStreamComponentPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:01 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamComponentPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcom9w6486".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamComponentPkg.vhd(43): VHDL Compiler exiting
+# End time: 10:24:01 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/AxiStreamComponentPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/AxiStreamContext.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:01 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamContext.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcom5caav3".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamContext.vhd(40): VHDL Compiler exiting
+# End time: 10:24:01 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/AxiStreamContext.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/AxiStreamGenericSignalsPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:01 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamGenericSignalsPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcoms82xtf".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamGenericSignalsPkg.vhd(40): VHDL Compiler exiting
+# End time: 10:24:02 on Apr 26,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/AxiStreamGenericSignalsPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/AxiStreamSignalsPkg_32.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:02 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamSignalsPkg_32.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcom81gf5n".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/AxiStream/src/AxiStreamSignalsPkg_32.vhd(40): VHDL Compiler exiting
+# End time: 10:24:02 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/AxiStreamSignalsPkg_32.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# include ./Axi4/Axi4.pro
+# set CurrentWorkingDirectory ../../OsvvmLibraries/AXI4/Axi4
+# source ../../OsvvmLibraries/AXI4/Axi4/Axi4.pro
+# library osvvm_axi4 C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10
+# vmap   osvvm_axi4  C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4
+# analyze ./src/Axi4ComponentPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:02 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/Axi4/src/Axi4ComponentPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcomb3mjc8".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/Axi4/src/Axi4ComponentPkg.vhd(45): VHDL Compiler exiting
+# End time: 10:24:02 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/Axi4ComponentPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/Axi4ComponentVtiPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:02 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/Axi4/src/Axi4ComponentVtiPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcom5fsa5n".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/Axi4/src/Axi4ComponentVtiPkg.vhd(45): VHDL Compiler exiting
+# End time: 10:24:02 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/Axi4ComponentVtiPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/Axi4Context.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:02 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/Axi4/src/Axi4Context.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcomcx0av4".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/Axi4/src/Axi4Context.vhd(42): VHDL Compiler exiting
+# End time: 10:24:02 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/Axi4Context.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/Axi4Manager.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:02 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/Axi4/src/Axi4Manager.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcom2bimh4".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/Axi4/src/Axi4Manager.vhd(54): VHDL Compiler exiting
+# End time: 10:24:02 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/Axi4Manager.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/Axi4ManagerVti.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:02 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/Axi4/src/Axi4ManagerVti.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcomk53312".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/Axi4/src/Axi4ManagerVti.vhd(54): VHDL Compiler exiting
+# End time: 10:24:02 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/Axi4ManagerVti.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/Axi4Monitor_dummy.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:02 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/Axi4/src/Axi4Monitor_dummy.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcomdg9khg".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/Axi4/src/Axi4Monitor_dummy.vhd(42): VHDL Compiler exiting
+# End time: 10:24:02 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/Axi4Monitor_dummy.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/Axi4Subordinate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:02 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/Axi4/src/Axi4Subordinate.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcom6m755x".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/Axi4/src/Axi4Subordinate.vhd(52): VHDL Compiler exiting
+# End time: 10:24:02 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/Axi4Subordinate.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/Axi4SubordinateVti.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:02 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/Axi4/src/Axi4SubordinateVti.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcomkct8xd".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/Axi4/src/Axi4SubordinateVti.vhd(52): VHDL Compiler exiting
+# End time: 10:24:02 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/Axi4SubordinateVti.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/Axi4Memory.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:02 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/Axi4/src/Axi4Memory.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcome6k91e".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/Axi4/src/Axi4Memory.vhd(51): VHDL Compiler exiting
+# End time: 10:24:02 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/Axi4Memory.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/Axi4MemoryVti.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:03 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/Axi4/src/Axi4MemoryVti.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcomwb7753".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/Axi4/src/Axi4MemoryVti.vhd(52): VHDL Compiler exiting
+# End time: 10:24:03 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/Axi4MemoryVti.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/Axi4PassThru.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:03 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_axi4 ../../OsvvmLibraries/AXI4/Axi4/src/Axi4PassThru.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_axi4/_temp/vcomx3tw37".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/AXI4/Axi4/src/Axi4PassThru.vhd(43): VHDL Compiler exiting
+# End time: 10:24:03 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/Axi4PassThru.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# include ./DpRam/DpRam.pro
+# set CurrentWorkingDirectory ../../OsvvmLibraries/DpRam
+# source ../../OsvvmLibraries/DpRam/DpRam.pro
+# library osvvm_DpRam_PT C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10
+# vmap   osvvm_dpram_pt  C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_dpram_pt
+# analyze ./src/DpRam_PT.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:03 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_DpRam_PT ../../OsvvmLibraries/DpRam/src/DpRam_PT.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_dpram_pt/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_dpram_pt/_temp/vcom9ed02g".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/DpRam/src/DpRam_PT.vhd(42): VHDL Compiler exiting
+# End time: 10:24:03 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/DpRam_PT.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# library osvvm_DpRam C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10
+# vmap   osvvm_dpram  C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_dpram
+# analyze ./src/DpRam_Singleton.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:03 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_DpRam ../../OsvvmLibraries/DpRam/src/DpRam_Singleton.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_dpram/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_dpram/_temp/vcomn053af".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/DpRam/src/DpRam_Singleton.vhd(42): VHDL Compiler exiting
+# End time: 10:24:03 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/DpRam_Singleton.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/DpRamController_Blocking.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:03 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_DpRam ../../OsvvmLibraries/DpRam/src/DpRamController_Blocking.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_dpram/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_dpram/_temp/vcom0zbcb2".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/DpRam/src/DpRamController_Blocking.vhd(41): VHDL Compiler exiting
+# End time: 10:24:03 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/DpRamController_Blocking.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/DpRamComponentPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:03 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_DpRam ../../OsvvmLibraries/DpRam/src/DpRamComponentPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_dpram/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_dpram/_temp/vcom51smr2".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/DpRam/src/DpRamComponentPkg.vhd(42): VHDL Compiler exiting
+# End time: 10:24:03 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/DpRamComponentPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze ./src/DpRamContext.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:03 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_DpRam ../../OsvvmLibraries/DpRam/src/DpRamContext.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_dpram/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_dpram/_temp/vcombcayaq".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/DpRam/src/DpRamContext.vhd(39): VHDL Compiler exiting
+# End time: 10:24:03 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze ./src/DpRamContext.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# include ./Ethernet/Ethernet.pro
+# set CurrentWorkingDirectory ../../OsvvmLibraries/Ethernet
+# source ../../OsvvmLibraries/Ethernet/Ethernet.pro
+# library osvvm_ethernet C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10
+# vmap   osvvm_ethernet  C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_ethernet
+# analyze xMiiTbPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:03 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_ethernet ../../OsvvmLibraries/Ethernet/src/xMiiTbPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_ethernet/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_ethernet/_temp/vcomwrt2j1".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Ethernet/src/xMiiTbPkg.vhd(43): VHDL Compiler exiting
+# End time: 10:24:03 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze xMiiTbPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze xMiiComponentPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:03 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_ethernet ../../OsvvmLibraries/Ethernet/src/xMiiComponentPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_ethernet/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_ethernet/_temp/vcomnsy7g9".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Ethernet/src/xMiiComponentPkg.vhd(41): VHDL Compiler exiting
+# End time: 10:24:03 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze xMiiComponentPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze xMiiPhyRxTransmitter.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:04 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_ethernet ../../OsvvmLibraries/Ethernet/src/xMiiPhyRxTransmitter.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_ethernet/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_ethernet/_temp/vcom4hebh1".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Ethernet/src/xMiiPhyRxTransmitter.vhd(44): VHDL Compiler exiting
+# End time: 10:24:04 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze xMiiPhyRxTransmitter.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze xMiiPhyTxReceiver.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:04 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_ethernet ../../OsvvmLibraries/Ethernet/src/xMiiPhyTxReceiver.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_ethernet/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_ethernet/_temp/vcomycd0cs".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Ethernet/src/xMiiPhyTxReceiver.vhd(44): VHDL Compiler exiting
+# End time: 10:24:04 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze xMiiPhyTxReceiver.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze xMiiPhy.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:04 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_ethernet ../../OsvvmLibraries/Ethernet/src/xMiiPhy.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_ethernet/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_ethernet/_temp/vcomvnynvg".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Ethernet/src/xMiiPhy.vhd(44): VHDL Compiler exiting
+# End time: 10:24:04 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze xMiiPhy.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze xMiiMacTransmitter.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:04 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_ethernet ../../OsvvmLibraries/Ethernet/src/xMiiMacTransmitter.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_ethernet/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_ethernet/_temp/vcomjv88d4".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Ethernet/src/xMiiMacTransmitter.vhd(44): VHDL Compiler exiting
+# End time: 10:24:04 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze xMiiMacTransmitter.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze xMiiMacReceiver.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:04 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_ethernet ../../OsvvmLibraries/Ethernet/src/xMiiMacReceiver.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_ethernet/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_ethernet/_temp/vcomtni2j1".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Ethernet/src/xMiiMacReceiver.vhd(44): VHDL Compiler exiting
+# End time: 10:24:04 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze xMiiMacReceiver.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze xMiiMac.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:04 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_ethernet ../../OsvvmLibraries/Ethernet/src/xMiiMac.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_ethernet/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_ethernet/_temp/vcombdazjb".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Ethernet/src/xMiiMac.vhd(44): VHDL Compiler exiting
+# End time: 10:24:04 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze xMiiMac.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze xMiiContext.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:04 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_ethernet ../../OsvvmLibraries/Ethernet/src/xMiiContext.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_ethernet/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_ethernet/_temp/vcom0a2vhy".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/Ethernet/src/xMiiContext.vhd(39): VHDL Compiler exiting
+# End time: 10:24:04 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze xMiiContext.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# include ./CoSim/CoSim.pro
+# set CurrentWorkingDirectory ../../OsvvmLibraries/CoSim
+# source ../../OsvvmLibraries/CoSim/CoSim.pro
+# library osvvm_cosim C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10
+# vmap   osvvm_cosim  C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_cosim
+# include src/CoSim.pro
+# set CurrentWorkingDirectory ../../OsvvmLibraries/CoSim/src
+# source ../../OsvvmLibraries/CoSim/src/CoSim.pro
+# library osvvm_cosim C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10
+# vmap   osvvm_cosim  C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_cosim
+# analyze OsvvmVprocPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:04 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_cosim ../../OsvvmLibraries/CoSim/src/OsvvmVprocPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_cosim/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_cosim/_temp/vcomvm61fx".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/CoSim/src/OsvvmVprocPkg.vhd(36): VHDL Compiler exiting
+# End time: 10:24:04 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze OsvvmVprocPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze OsvvmTestCoSimPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:04 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_cosim ../../OsvvmLibraries/CoSim/src/OsvvmTestCoSimPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_cosim/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_cosim/_temp/vcomnz32iw".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/CoSim/src/OsvvmTestCoSimPkg.vhd(37): VHDL Compiler exiting
+# End time: 10:24:04 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze OsvvmTestCoSimPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze CoSimInterruptHandler.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:04 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_cosim ../../OsvvmLibraries/CoSim/src/CoSimInterruptHandler.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_cosim/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_cosim/_temp/vcomvdm27b".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/CoSim/src/CoSimInterruptHandler.vhd(43): VHDL Compiler exiting
+# End time: 10:24:05 on Apr 26,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze CoSimInterruptHandler.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze CoSimInterruptHandlerComponentPkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:05 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_cosim ../../OsvvmLibraries/CoSim/src/CoSimInterruptHandlerComponentPkg.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_cosim/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_cosim/_temp/vcomrj31gx".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/CoSim/src/CoSimInterruptHandlerComponentPkg.vhd(41): VHDL Compiler exiting
+# End time: 10:24:05 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze CoSimInterruptHandlerComponentPkg.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# analyze CoSimContext.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:24:05 on Apr 26,2023
+# vcom -reportprogress 300 -2008 -work osvvm_cosim ../../OsvvmLibraries/CoSim/src/CoSimContext.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_cosim/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "C:/Repositórios/OsvvmLibraries/Scripts/VHDL_LIBS/ModelSim-2016.10/osvvm_cosim/_temp/vcomaxck1r".
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: ../../OsvvmLibraries/CoSim/src/CoSimContext.vhd(37): VHDL Compiler exiting
+# End time: 10:24:05 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# AnalyzeError: See messages above in "analyze CoSimContext.vhd"
+# For tcl errorInfo, puts $::osvvm::AnalyzeErrorInfo
+# Build Start time  10:23:54 ART Wed Apr 26 2023 
+# Build Finish time 10:24:05, Elasped time: 0:00:11 
+# BuildError: Repositórios_OsvvmLibraries FAILED,  Passed: 0,  Failed: 0,  Skipped: 0,  Analyze Errors: 106,  Simulate Errors: 0,  Build Error Code: 0
