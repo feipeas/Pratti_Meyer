@@ -1,0 +1,71 @@
+> Coisas vistas no livro da Doulos sobre OSVVM:
+
+
+	> OSVVM significa "Open Source VHDL Veficcation Methodology"
+	> É uma biblioteca com um conjuto de pacotes que simplificam:
+		- Geração randômica de estímulos
+		- Coleção de cobertura funcional
+		- O Display de mensagens
+		- E outras tarefas de verificação comuns
+		
+	> Pode ser baixada em http://osvvm.org/
+		- Inclui documentação completa em PDF
+	
+> Como instalar o osvvm
+
+	> Instalando GHDL
+		- Para o funcionamento do osvvm é importante que o simulador
+		utilizado tenha suporte completo para VHDL2008
+			* Um simulador para ser baixado é o ghdl, mas ao fazer
+			sudo apt install ghdl, a versão instalada na máquina é
+			obsoleta e gerará erros ao rodar as demos do osvvm
+			* Para instalar um versão capaz de rodar as demos do
+			ossvvm sem ocorrência de erros, siga o script abaixo:
+				sudo apt update
+				sudo apt install -y git make gnat zlib1g-dev
+				git clone https://github.com/ghdl/ghdl
+				cd ghdl
+				./configure --prefix=/usr/local
+				make
+				sudo make install
+				
+	> Instalando ferramentas necessárias para o build das demos OSVVM
+		- Após a instalação do ghdl, seguiremos o Script_user_guide.pdf
+		disponibilizado no site http://osvvm.org/
+			* Para seguir os passos do pdf é necessário a instalação de
+			algumas ferramentas preliminares:
+				sudo apt install rlwrap
+				git clone https://github.com/tcltk/tcllib.git
+				cd tcllib
+				sudo ./installer.tcl
+	
+	> Agora podemos seguir o PDF:
+		- O PDF Script_user_guide.pdf encontra-se localizado em:
+			https://github.com/OSVVM/Documentation#readme
+			
+			
+> RODANDO UM TESTBENCH COM OSVVM
+
+	> Settando o ambiente
+		- Criar uma pasta contendo o design, testbench, uma pasta sim
+		e uma pasta com os arquivos osvvm. Exemplo abaixo:
+		
+			alu_tb.vhd
+			alu.vhd
+			osvvm
+			sim
+		- Siga os seguintes comandos:
+			cd sim
+			rlwrap tclsh
+			source <path_to_OsvvmLibraries>/OsvvmLibraries/Scripts/StartUp.tcl
+			build ../osvvm
+			analyze ../alu.vhd
+			analyze ../alu_tb.vhd
+			
+				*OBS: copiar o comando executado pelo "analyze ../alu_tb.vhd",
+				trocar o -a por --elab-run e no último campo (local e nome do arquivo)
+				excluir o .vhd e retirar o path exemplo: ../alu_tb.vhd -> alu_tb
+				e adicionar --vcd=alu_tb.vcd
+				
+			ao realizar o OBS terá sido executada a simulação e criado um
+			arquivo alu_tb.vcd que pode ser usado com o gtkwave
